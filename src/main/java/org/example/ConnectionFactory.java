@@ -14,7 +14,7 @@ public class ConnectionFactory {
         if(connection == null) {
             String url = "jdbc:mysql://localhost:3306/bank_app";
             String user = "root";
-            String password = "jojo";
+            String password = "root";
 
             try {
                 connection = DriverManager.getConnection(url, user, password);
